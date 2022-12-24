@@ -34,6 +34,12 @@ int j=0;
     }  
  }
 
+string n="";
+for (int p=0;p<arrnew.Length;p++)
+ {n+=arrnew[p];}    
+if (n=="")
+ {Console.Write("Искомые элементы массива не найдены");}
+ 
 
 void PrintArray(string[] array)
 {
